@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "Mejor resumen del modelo",
+  "mode_summary": "Resumen del modelo",
+  "kernel": "Kernel",
+  "statistics": "Estadísticas",
+  "dependent_variable": "Variable dependiente: {0}",
+  "model": "Modelo: {0}",
+  "model_comparisons": "Comparaciones de modelos",
+  "mean_test_subset_r_square": "Promedio de r cuadrado de subconjunto de prueba",
+  "number_of_crossvalidation_folds": "Número de pliegues de validación cruzada",
+  "number_of_crossvalidation_folds_with_number": "Número de pliegues de validación cruzada: {0}",
+  "full_data_r_square": "Full Data R Square",
+  "fold_r_square": "Doblar la plaza {0}",
+  "dependent_by_predicted_value": "Diagrama de dispersión de {0} por valor pronosticado",
+  "residual_by_predicted_value": "Diagrama de dispersión de residuo por valor pronosticado",
+  "predicted_value": "Valor predicho",
+  "residual": "Residual"
+}

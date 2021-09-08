@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "id": "krr",
+    "version": "1.0",
+    "json_schema": "http://api.dataplatform.ibm.com/schemas/statistics/procedure-ui/component-properties-v1-schema.json",
+    "label": "Kernel Ridge Regression"
+  },
+  "properties": [
+    {
+      "id": "dependent",
+      "type": "string",
+      "role": "field",
+      "required": true,
+      "storage": [
+        "numeric",
+        "date"
+      ]
+    },
+    {
+      "id": "covariates",
+      "type": "array[string]",
+      "role": "field",
+      "required": true,
+      "storage": [
+        "numeric",
+        "date"
+      ],
+      "constraints": [
+        {
+          "op": "min",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "weight_var",
+      "type": "string",
+      "role": "field",
+      "required": false,
+      "storage": [
+        "numeric",
+        "date"
+      ]
+    },
+    {
+      "id": "kernels",
+      "type": "array[kernel_struct]"
+    },
+    {
+      "id": "crossvalid",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "crossvalid_nfolds",
+      "type": "integer",
+      "default": 5
+    },
+    {
+      "id": "print",
+      "enum": [
+        "best",
+        "compare",
+        "verbose"
+      ],
+      "required": false,
+      "default": "best"
+    },
+    {
+      "id": "plot_observed",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "plot_residual",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "save_pred_newvar",
+      "type": "string",
+      "role": "new_field",
+      "default": "new_pred_var"
+    },
+    {
+      "id": "save_resid_newvar",
+      "type": "string",
+      "role": "new_field",
+      "default": "new_resid_var"
+    },
+    {
+      "id": "save_dual_newvar",
+      "type": "string",
+      "role": "new_field",
+      "default": "new_dual_var"
+    }
+  ],
+  "complex_types": [
+    {
+      "id": "kernel_struct",
+      "parameters": [
+        {
+          "id": "kernel",
+          "enum": [
+            "additive_chi2",
+            "chi2",
+            "cosine",
+            "laplacian",
+            "linear",
+            "polynomial",
+            "rbf",
+            "sigmoid"
+          ],
+          "default": "linear"
+        },
+        {
+          "id": "alpha",
+          "type": "vlth_struct"
+        },
+        {
+          "id": "gamma",
+          "type": "vlth_struct"
+        },
+        {
+          "id": "coef0",
+          "type": "vlth_struct"
+        },
+        {
+          "id": "degree",
+          "type": "vlth_struct"
+        }
+      ]
+    },
+    {
+      "id": "vlth_struct",
+      "description": "Can contain either a value_list, a low/high/increment triplet, or both",
+      "parameters": [
+        {
+          "id": "value_list",
+          "type": "array[double]"
+        },
+        {
+          "id": "low",
+          "type": "double"
+        },
+        {
+          "id": "high",
+          "type": "double"
+        },
+        {
+          "id": "increment",
+          "type": "double"
+        }
+      ]
+    }
+  ],
+  "validations": [
+  ],
+  "backend_processing": {
+    "delete_missing": "listwise",
+    "handle_missing": "exclude",
+    "rounding_weight": "rounded",
+    "add_cps_table": true,
+    "records_per_chunk": -1
+  }
+}

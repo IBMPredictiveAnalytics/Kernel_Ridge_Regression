@@ -1,0 +1,19 @@
+{
+    "best_model_summary": "Best Model Summary",
+    "mode_summary": "Model Summary",
+    "kernel": "Kernel",
+    "statistics": "Statistics",
+    "dependent_variable": "Dependent Variable: {0}",
+    "model": "Model: {0}",
+    "model_comparisons": "Model Comparisons",
+    "mean_test_subset_r_square": "Mean Test Subset R Square",
+    "number_of_crossvalidation_folds": "Number of crossvalidation folds",
+    "number_of_crossvalidation_folds_with_number": "Number of crossvalidation folds: {0}",
+    "full_data_r_square": "Full Data R Square",
+    "fold_r_square": "Fold {0} R Square",
+    "r_square": "R Square",
+    "dependent_by_predicted_value": "Scatterplot of {0} by Predicted Value",
+    "residual_by_predicted_value": "Scatterplot of Residual by Predicted Value",
+    "predicted_value": "Predicted Value",
+    "residual": "Residual"
+}

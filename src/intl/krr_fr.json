@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "Récapitulatif du meilleur modèle",
+  "mode_summary": "Récapitulatif du modèle",
+  "kernel": "Noyau",
+  "statistics": "Statistiques",
+  "dependent_variable": "Variable dépendante: {0}",
+  "model": "Modèle: {0}",
+  "model_comparisons": "Comparaisons de modèles",
+  "mean_test_subset_r_square": "Nombre moyen de sous-ensembles de sous-ensembles de tests",
+  "number_of_crossvalidation_folds": "Nombre de plis de validation croisée",
+  "number_of_crossvalidation_folds_with_number": "Nombre de plis de validation croisée: {0}",
+  "full_data_r_square": "Carré de données complètes de données",
+  "fold_r_square": "Fold {0} R Square",
+  "dependent_by_predicted_value": "Nuisation de points de {0} par valeur prévue",
+  "residual_by_predicted_value": "Nuaire de points de résidus par valeur prédite",
+  "predicted_value": "Valeur prévue",
+  "residual": "Résiduel"
+}

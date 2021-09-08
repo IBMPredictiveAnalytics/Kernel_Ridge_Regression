@@ -1,0 +1,14 @@
+Name: Kernel_Ridge_Regression
+Code-Files: krr_wrapper.py
+Misc-Files: KRR-properties.json
+Summary: This is a kernel ridge regression related extension
+Description: This is a kernel regression related extension.
+Author: Statistics, IBM SPSS 
+Version: 1.0.0
+Product-Version: 28.0.1.0
+Date: 9/5/2021
+Platforms: Windows, MacOS
+Plugins: Python
+Python-Version: 3
+Python-Modules: sklearn
+Translation-Catalogues: lang

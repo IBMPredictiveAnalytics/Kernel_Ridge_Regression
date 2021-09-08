@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "Resumo de Melhor Modelo",
+  "mode_summary": "Resumo do Modelo",
+  "kernel": "Kernel",
+  "statistics": "Estatísticas",
+  "dependent_variable": "Variável Dependente: {0}",
+  "model": "Modelo: {0}",
+  "model_comparisons": "Comparações de Modelo",
+  "mean_test_subset_r_square": "Praça R Subset de Teste médio",
+  "number_of_crossvalidation_folds": "Número de folgas de crossvalidação",
+  "number_of_crossvalidation_folds_with_number": "Número de folgas de crossvalidação: {0}",
+  "full_data_r_square": "Praça de R Data R",
+  "fold_r_square": "Dobra {0} Praça R",
+  "dependent_by_predicted_value": "Scatterplot de {0} por Valor Predito",
+  "residual_by_predicted_value": "Scatterplot de Residual por Valor Predito",
+  "predicted_value": "Valor previsto",
+  "residual": "Residual"
+}

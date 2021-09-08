@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "Podsumowanie najlepszego modelu",
+  "mode_summary": "Podsumowanie modelu",
+  "kernel": "Jądro",
+  "statistics": "Statystyki",
+  "dependent_variable": "Zmienna zależna: {0}",
+  "model": "Model: {0}",
+  "model_comparisons": "Porównania modeli",
+  "mean_test_subset_r_square": "Średni podzbiór testów R kwadrat",
+  "number_of_crossvalidation_folds": "Liczba krotności walidacji krzyżowej",
+  "number_of_crossvalidation_folds_with_number": "Liczba krotności walidacji krzyżowej: {0}",
+  "full_data_r_square": "Pełny Data R-kwadrat",
+  "fold_r_square": "Złóż {0} R kwadrat",
+  "dependent_by_predicted_value": "Wykres rozrzutu z {0} wg wartości przewidywanej",
+  "residual_by_predicted_value": "Wykres rozrzutu z wartości rezydualnej wg przewidywanej wartości",
+  "predicted_value": "Wartość przewidywana",
+  "residual": "Reszta"
+}

@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "최상의 모델 요약",
+  "mode_summary": "모델 요약",
+  "kernel": "커널",
+  "statistics": "통계",
+  "dependent_variable": "종속 변수: {0}",
+  "model": "모델: {0}",
+  "model_comparisons": "모델 비교",
+  "mean_test_subset_r_square": "평균 테스트 서브세트 R 제곱",
+  "number_of_crossvalidation_folds": "교차 검증 접힘수",
+  "number_of_crossvalidation_folds_with_number": "교차 검증 중첩 수: {0}",
+  "full_data_r_square": "전체 데이터 R 스퀘어",
+  "fold_r_square": "{0} R 스퀘어 채우기",
+  "dependent_by_predicted_value": "예측 값으로 {0}의 산점도",
+  "residual_by_predicted_value": "예측된 값에 의한 잔차의 산점도",
+  "predicted_value": "예측 값",
+  "residual": "잔차"
+}

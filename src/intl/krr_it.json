@@ -1,0 +1,18 @@
+{
+  "best_model_summary": "Riepilogo del miglior modello",
+  "mode_summary": "Riepilogo del modello",
+  "kernel": "Kernel",
+  "statistics": "Statistiche",
+  "dependent_variable": "Variabile dipendente: {0}",
+  "model": "Modello: {0}",
+  "model_comparisons": "Confronti Modello",
+  "mean_test_subset_r_square": "Media Test Sottoinsieme R Square",
+  "number_of_crossvalidation_folds": "Numero di pieghe di crossvalidation",
+  "number_of_crossvalidation_folds_with_number": "Numero di pieghe incrociate: {0}",
+  "full_data_r_square": "Piazza Data R completa",
+  "fold_r_square": "Piazza {0} R Square",
+  "dependent_by_predicted_value": "Tracciato di dispersione di {0} da Valore Previsto",
+  "residual_by_predicted_value": "Scatterplot di Residual per Valore Previsto",
+  "predicted_value": "Valore previsto",
+  "residual": "Residuo"
+}
