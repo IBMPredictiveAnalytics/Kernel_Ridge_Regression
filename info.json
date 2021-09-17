@@ -1,5 +1,5 @@
 {
- "type": [ "Extension" ],
+ "type": [ "XTension" ],
 "provider": [ "IBM" ],
 "software": [ "SPSS Statistics" ],
 "language": [ "Python 3" ],
