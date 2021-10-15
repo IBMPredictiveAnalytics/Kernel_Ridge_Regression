@@ -1,4 +1,4 @@
-# Kernel_Ridge_Regression
+# Kernel Ridge Regression
 ## Summary
 Fits kernel ridge regression models using Python sklearn classes.
 ## Desctription
