@@ -1,4 +1,5 @@
-Name: Kernel_Ridge_Regression
+Name: krr
+Display-Name: Kernel Ridge Regression
 Code-Files: krr_wrapper.py
 Misc-Files: KRR-properties.json
 Summary: Fits kernel ridge regression models using Python sklearn classes.
@@ -12,3 +13,4 @@ Plugins: Python
 Python-Version: 3
 Python-Modules: sklearn
 Translation-Catalogues: lang,intl
+

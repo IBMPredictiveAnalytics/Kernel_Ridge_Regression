@@ -15,5 +15,7 @@
     "dependent_by_predicted_value": "Scatterplot of {0} by Predicted Value",
     "residual_by_predicted_value": "Scatterplot of Residual by Predicted Value",
     "predicted_value": "Predicted Value",
-    "residual": "Residual"
+    "residual": "Residual",
+    "python_returned_msg": "Python returned the following message:",
+    "python_output": "Python Output"
 }
