@@ -182,6 +182,7 @@ def execute(iterator_id, data_model, settings, lang="en"):
                 best_model_summary_table.add_cells(best_cells)
                 best_model_summary_table.add_footnotes(intl.loadstring("dependent_variable").format(y_name))
                 best_model_summary_table.add_footnotes(intl.loadstring("model").format(", ".join(x_names)))
+                best_model_summary_table.set_max_data_column_width(120)
 
                 output_json.add_table(best_model_summary_table)
 
