@@ -4,13 +4,12 @@ Code-Files: krr_wrapper.py
 Misc-Files: KRR-properties.json
 Summary: Fits kernel ridge regression models using Python sklearn classes.
 Description: Fits kernel ridge regression models using the Python sklearn.kernel_ridge.KernelRidge class to estimate a kernel ridge regression of a dependent variable on one or more independent variables with specified model hyperparameters, or selection of hyperparameter values over a specified grid of values via crossvalidation by also using the sklearn.model_selection.GridSearchCV class.
-Author: Statistics, IBM SPSS 
-Version: 1.0.0
+Author: Statistics, IBM SPSS
+Version: 1.0.1
 Product-Version: 28.0.1.0
 Date: 9/5/2021
 Platforms: Windows, MacOS
 Plugins: Python
 Python-Version: 3
-Python-Modules: sklearn
+Python-Modules: scikit-learn
 Translation-Catalogues: lang,intl
-
