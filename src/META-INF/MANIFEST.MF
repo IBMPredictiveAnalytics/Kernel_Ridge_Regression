@@ -11,5 +11,5 @@ Date: 9/5/2021
 Platforms: Windows, MacOS
 Plugins: Python
 Python-Version: 3
-Python-Modules: sklearn,numpy,scipy,joblib,threadpoolctl
+Python-Modules: scikit-learn
 Translation-Catalogues: lang,intl
