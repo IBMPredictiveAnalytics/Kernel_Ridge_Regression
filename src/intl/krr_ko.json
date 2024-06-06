@@ -4,7 +4,7 @@
   "kernel": "커널",
   "statistics": "통계량",
   "dependent_variable": "종속변수: {0}",
-  "model": "모형: {0}",
+  "model": "모델: {0}",
   "model_comparisons": "모델 비교",
   "mean_test_subset_r_square": "평균 검정 부분집합 R 제곱",
   "number_of_crossvalidation_folds": "교차 검증 중첩 수",
